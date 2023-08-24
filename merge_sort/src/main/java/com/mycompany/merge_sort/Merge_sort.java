@@ -36,8 +36,8 @@ public class Merge_sort {
             k++;
         }
         while (i < n1){
-            arr[k] = leftArray[j];
-            j++;
+            arr[k] = leftArray[i];
+            i++;
             k++;
         }
     
@@ -46,6 +46,16 @@ public class Merge_sort {
             j++;
             k++;
         }
+    }
+    public static void mergeSort(int[] arr, int left, int right ) {
+        if (left < right){
+            int middle = left + (right - left) / 2;
+         
+            mergeSort(arr, left, middle);
+            mergeSort(arr, middle + 1, right); 
+        
+            merge(arr, left, middle, right); 
+     }
     }
  }
 
