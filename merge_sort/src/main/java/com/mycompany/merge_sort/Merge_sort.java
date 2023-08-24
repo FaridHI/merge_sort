@@ -4,6 +4,7 @@
 
 package com.mycompany.merge_sort;
 import java.util.Scanner;
+import java.util.Arrays;
 /**
  *
  * @author Alumno
