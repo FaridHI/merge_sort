@@ -3,7 +3,7 @@
  */
 
 package com.mycompany.merge_sort;
-
+import java.util.Scanner;
 /**
  *
  * @author Alumno
