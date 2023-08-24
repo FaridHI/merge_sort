@@ -18,5 +18,11 @@ public class Merge_sort {
         int[] leftArray = new int[n1];
         int[] rightArray = new int[n2];
         
+        for (int i = 0; i < n1; i++){
+            leftArray[i] = arr[left + i];
+        }
+        for (int j = 0; j < n2; j++){
+            rightArray[j] = arr[middle + 1 + j];
+        }
     }
 }
