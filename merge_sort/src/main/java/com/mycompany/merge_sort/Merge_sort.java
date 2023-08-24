@@ -11,7 +11,12 @@ import java.util.Arrays;
  */
 public class Merge_sort {
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+    public static void merge(int[] arr, int left, int middle, int right ) {
+        int n1 = middle - left + 1;
+        int n2 = right - middle;
+        
+        int[] leftArray = new int[n1];
+        int[] rightArray = new int[n2];
+        
     }
 }
