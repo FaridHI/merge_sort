@@ -40,6 +40,7 @@ public class Merge_sort {
             i++;
             k++;
         }
+
         
         while (j < n2){
             arr[k] = rightArray[j];
