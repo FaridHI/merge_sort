@@ -35,5 +35,17 @@ public class Merge_sort {
             }
             k++;
         }
+        while (i < n1){
+            arr[k] = leftArray[j];
+            j++;
+            k++;
+        }
+    
+        while (j < n2){
+            arr[k] = rightArray[j];
+            j++;
+            k++;
+        }
     }
-}
+ }
+
