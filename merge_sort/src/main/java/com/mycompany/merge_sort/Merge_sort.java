@@ -40,15 +40,13 @@ public class Merge_sort {
             i++;
             k++;
         }
-<<<<<<< HEAD
     
         while (j < n2){
             arr[k] = rightArray[j];
             j++;
             k++;
         }
-=======
->>>>>>> 84577e1713356b8632efd601745ac866f9628e9d
+
     }
     public static void mergeSort(int[] arr, int left, int right ) {
         if (left < right){
